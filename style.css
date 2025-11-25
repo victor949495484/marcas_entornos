@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.principio {
+    min-height: 100vh; 
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagenes/imagen-portada.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-size: 1.5rem; 
+    text-shadow: 3px 3px 0px #000; 
+}
+
+
+.menu-navegacion {
+    margin-bottom: 3rem; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 15px; 
+}
+
+.menu-navegacion a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.menu-navegacion a:hover {
+    background-color: rgba(0, 251, 29, 0.5);
+    border: 2px solid #00fb1d;
+    box-shadow: 0 0 10px #00fb1d;
+    transform: translateY(-3px); 
+}
+
+.contenedor-galeria {
+    display: flex;
+    justify-content: center;
+    gap: 4rem; 
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+.tarjeta {
+    flex: 1; 
+    min-width: 250px; 
+    max-width: 400px;
+}
+
+.tarjeta img {
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 5px 5px 0px #000; 
+    margin-bottom: 1rem;
+}
+
+.tarjeta h4 {
+    font-size: 0.9rem;
+    color: #ffeb3b; 
+    text-shadow: 2px 2px 0px #000;
+}
