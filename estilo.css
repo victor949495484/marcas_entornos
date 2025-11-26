@@ -79,13 +79,13 @@ body {
     font-size: 1.5rem;
 }
 
+
+
+
 .boton {
     text-align: center;
     align-items: center;
     margin-bottom: 40px;
-}
-
-.boton {
     display: inline-block;
     text-decoration: none;
     background-color: var(--acento);
