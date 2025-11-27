@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Pixelify Sans', cursive;
     background: linear-gradient(rgba(44, 30, 20, 0.8), rgba(44, 30, 20, 0.8)),url(imagenes/armeria.png);
     background-size: cover;       
     background-position: center;  
